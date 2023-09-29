@@ -34,7 +34,7 @@ class NotificationHelper {
         now.month,
         now.day,
         23,
-        10,
+        0,
         0);
 
     await flutterLocalNotificationsPlugin.zonedSchedule(
